@@ -123,7 +123,7 @@ npm run dev
 Deployed with Vercel.
 
 ```text
-https://your-vercel-link.vercel.app
+https://guitar-note-shooter.vercel.app
 ```
 
 ---
