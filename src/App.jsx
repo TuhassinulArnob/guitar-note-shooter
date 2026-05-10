@@ -732,6 +732,60 @@ return (
         </div>
       </div>
     </div>
+    {/* Footer */}
+{/* Copyright */}
+<div
+  style={{
+    position: 'absolute',
+
+    bottom:
+      window.innerWidth < 768
+        ? '8px'
+        : '14px',
+
+    right:
+      window.innerWidth < 768
+        ? '10px'
+        : '18px',
+
+    textAlign: 'right',
+
+    color:
+      'rgba(255,255,255,0.28)',
+
+    fontSize:
+      window.innerWidth < 768
+        ? '8px'
+        : '12px',
+
+    lineHeight: 1.4,
+
+    zIndex: 2,
+
+    pointerEvents: 'none',
+
+    userSelect: 'none',
+
+    maxWidth:
+      window.innerWidth < 768
+        ? '120px'
+        : '220px'
+  }}
+>
+  <div>
+    © 2026 Sarkar
+    Tuhassinul Arnob
+  </div>
+
+  <div>
+    Dept. of ICT
+  </div>
+
+  <div>
+    Islamic University,
+    Kushtia
+  </div>
+</div>
   </div>
 )
 }
