@@ -6,7 +6,7 @@ This project combines my passion for **guitar** with my academic interest in **s
 
 ---
 
-# 📌 Project Overview
+## 📌 Project Overview
 
 Guitar Note Shooter is an interactive musical arcade game where players use a real guitar (or voice/instrument) through the microphone to identify and hit falling musical notes.
 
@@ -14,84 +14,7 @@ The game detects pitch in real-time and shoots targets when the correct note is 
 
 ---
 
-# ✨ Features
-
-- 🎸 Real-time guitar note detection
-- 🎤 Microphone pitch analysis
-- 🎮 Interactive Phaser gameplay
-- ⚡ Dynamic difficulty scaling
-- 🎯 Accuracy feedback system
-- 📱 Responsive mobile-friendly UI
-- 🌌 Animated space-style background
-- 🔥 Progressive level system
-- 💥 Visual shooting and explosion effects
-- 🧠 Ear-training style gameplay
-
----
-
-# 🛠️ Technologies Used
-
-| Technology | Purpose |
-|---|---|
-| React | UI and state management |
-| Vite | Fast frontend tooling |
-| Phaser | Game engine |
-| Pitchfinder | Real-time pitch detection |
-| JavaScript | Core programming language |
-| HTML/CSS | Frontend structure and styling |
-
----
-
-# 🎮 Gameplay
-
-- Musical notes fall from the top of the screen.
-- The player plays the correct note using a guitar.
-- Microphone input detects the pitch.
-- If the detected note matches the target note:
-  - the guitar aims automatically,
-  - a bullet shoots,
-  - the target explodes,
-  - score increases.
-- Missing notes increases miss count.
-- Game ends after 10 misses.
-- Difficulty increases automatically with score.
-
----
-
-# 📈 Difficulty System
-
-The game becomes progressively harder as score increases.
-
-| Level | Changes |
-|---|---|
-| Level 1 | Slow notes, fewer targets |
-| Level 2 | Faster notes |
-| Level 3 | Multiple simultaneous notes |
-| Level 4 | Increased spawn rate |
-| Level 5 | Maximum speed and challenge |
-
----
-
-# 🚀 Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/TuhassinulArnob/guitar-note-shooter.git
-
-Open project folder:
-cd guitar-note-shooter
-
-Install dependencies:
-npm install
-
-Run development server:
-npm run dev
-
-Deployed with Vercel.
-https://your-vercel-link.vercel.app
-
-# 💡 Motivation Behind The Project
+## 💡 Motivation Behind The Project
 
 I love playing guitar as a hobby, and I wanted to combine my passion for music with my academic interest in software development and interactive systems.
 
@@ -109,28 +32,130 @@ Guitar Note Shooter is both a fun arcade-style game and an experimental ear-trai
 
 The project reflects my interest in combining creativity with programming to build engaging and practical interactive applications.
 
-# 🎵 Future Improvements
+---
+
+## ✨ Features
+
+- 🎸 Real-time guitar note detection
+- 🎤 Microphone pitch analysis
+- 🎮 Interactive Phaser gameplay
+- ⚡ Dynamic difficulty scaling
+- 🎯 Accuracy feedback system
+- 📱 Responsive mobile-friendly UI
+- 🌌 Animated space-style background
+- 🔥 Progressive level system
+- 💥 Visual shooting and explosion effects
+- 🧠 Ear-training style gameplay
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| React | UI and state management |
+| Vite | Frontend tooling |
+| Phaser | Game engine |
+| Pitchfinder | Pitch detection |
+| JavaScript | Core programming language |
+| HTML/CSS | Frontend styling |
+
+---
+
+## 🎮 Gameplay
+
+- Musical notes fall from the top of the screen
+- The player plays the correct note using a guitar
+- Microphone input detects the pitch
+- If the detected note matches the target:
+  - the guitar aims automatically
+  - a bullet shoots
+  - the target explodes
+  - score increases
+- Missing notes increases miss count
+- Game ends after 10 misses
+- Difficulty increases automatically with score
+
+---
+
+## 📈 Difficulty System
+
+| Level | Changes |
+|---|---|
+| Level 1 | Slow notes, fewer targets |
+| Level 2 | Faster notes |
+| Level 3 | Multiple simultaneous notes |
+| Level 4 | Increased spawn rate |
+| Level 5 | Maximum speed and challenge |
+
+---
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/TuhassinulArnob/guitar-note-shooter.git
+```
+
+Open project folder:
+
+```bash
+cd guitar-note-shooter
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🌐 Live Demo
+
+Deployed with Vercel.
+
+```text
+https://your-vercel-link.vercel.app
+```
+
+---
+
+---
+
+## 🎵 Future Improvements
 
 Planned future features:
 
-Chord recognition system
-Rhythm gameplay mode
-Guitar tuner mode
-Scale practice mode
-Combo and streak system
-Sound effects and music
-Multiplayer leaderboard
-Mobile optimization improvements
-Fretboard training mode
+- Chord recognition system
+- Rhythm gameplay mode
+- Guitar tuner mode
+- Scale practice mode
+- Combo and streak system
+- Sound effects and music
+- Multiplayer leaderboard
+- Mobile optimization improvements
+- Fretboard training mode
 
+---
 
-# 👨‍💻 Developer
-Sarkar Tuhassinul Arnob
-Department of ICT
+## 👨‍💻 Developer
+
+**Sarkar Tuhassinul Arnob**  
+Department of ICT  
 Islamic University, Kushtia
+
+---
 
 ## 📜 License
 
-This project is developed for educational and personal portfolio purposes.
+This project is developed for educational and portfolio purposes.
 
 © 2026 Sarkar Tuhassinul Arnob
